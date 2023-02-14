@@ -1,6 +1,3 @@
-#python main.py --input ./network/human-FIs.txt --output ./feature/human-fis.txt --dimensions 64 --walk-length 20 --num-walks 10 --window-size 10 --iter 10 --workers 6 --p 1 --q 3
-
-
 import argparse
 import numpy as np
 import networkx as nx
